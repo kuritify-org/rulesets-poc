@@ -1,0 +1,12 @@
+{
+  "name": "rulesets-poc-kuritify",
+  "version": "0.0.1",
+  "packageManager": "npm@10.8.2",
+  "scripts": {
+    "lint-gha": "docker run -it --rm --init -v $(pwd)/.github/workflows:/workflows rhysd/actionlint:1.7.1 -color $(find .github/workflows/ -name '*.yml' | awk -F '/' '{print \"/workflows/\"$NF}')"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

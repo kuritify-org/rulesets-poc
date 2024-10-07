@@ -1,0 +1,17 @@
+name: Continuous Integration
+
+on:
+  pull_request:
+    branches:
+    - main
+    - develop
+    - environment/*
+    types: [opened, reopened, synchronize]
+
+jobs:
+  code-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: run code check
+        run: |
+          echo 'formt, lint, ut and more'

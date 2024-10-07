@@ -1,0 +1,14 @@
+name: Tag Checks
+
+on:
+  push:
+    tags:
+      - v*
+jobs:
+  check-tag:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: exit 1
+        run: |
+          exit 1
