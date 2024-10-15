@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/kuritify-org/rulesets-poc/compare/v0.3.0...v0.4.0) (2024-10-15)
+
+
+### Features
+
+* chnage ([#8](https://github.com/kuritify-org/rulesets-poc/issues/8)) ([c214ba1](https://github.com/kuritify-org/rulesets-poc/commit/c214ba18ecc7ff8a114ba04893a44afec4818baf))
+
 ## [0.3.0](https://github.com/kuritify-org/rulesets-poc/compare/v0.2.0...v0.3.0) (2024-10-12)
 
 
