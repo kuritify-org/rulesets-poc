@@ -15,3 +15,9 @@ jobs:
       - name: run code check
         run: |
           echo 'formt, lint, ut and more'
+  e2e:
+    runs-on: ubuntu-latest
+    steps:
+      - name: run code check
+        run: |
+          echo 'e2e'
