@@ -13,13 +13,13 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate a Git App installe access token
-        id: generate-token
-        uses: actions/create-github-app-token@v1.11.0
-        with:
-          app-id: ${{ vars.GH_APP_ID }}
-          private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
-          owner: "kuritify-org"
+#      - name: Generate a Git App installe access token
+#        id: generate-token
+#        uses: actions/create-github-app-token@v1.11.0
+#        with:
+#          app-id: ${{ vars.GH_APP_ID }}
+#          private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
+#          owner: "kuritify-org"
 
       - name: release-please
         uses: googleapis/release-please-action@v4
