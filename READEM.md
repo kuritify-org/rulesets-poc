@@ -2,3 +2,4 @@
 * a
 * add kuri-owner
 * add kuri-kuritify
+* add kuri-ktc
