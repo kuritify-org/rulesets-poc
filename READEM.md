@@ -4,4 +4,4 @@
 * add kuri-kuritify
 * add kuri-ktc
 * add kuri-ktc
-* add kuri-owner
+* add kuri-owner and more
