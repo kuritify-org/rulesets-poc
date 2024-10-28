@@ -6,3 +6,4 @@
 * add kuri-ktc
 * add kuri-owner and more
 * add kuri-ktc
+* add kuri-ktc-c
